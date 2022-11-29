@@ -13,7 +13,7 @@ def arq():
     arquivos = os.listdir()
     for arquivo in arquivos:
         if '.xlsx' in arquivo:
-            shutil.move(arquivo, f'./planilhas/{arquivo})')
+            shutil.move(arquivo, f'./planilhas/{arquivo}')
         elif 'docx' in arquivo:
             shutil.move(arquivo, f'./documentos/{arquivo}')
     return
